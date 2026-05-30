@@ -15,7 +15,7 @@ jobs:
   # JOB 1 — ANÁLISE DE SEGURANÇA
   # =========================================
   codeql-analysis:
-    name:👣 Porta de acesso
+    name: 👣 Porta de acesso
     runs-on: ubuntu-latest
 
     permissions:
@@ -42,7 +42,7 @@ jobs:
   # JOB 2 — TESTES AUTOMATIZADOS
   # =========================================
   tests:
-    name:🚀 Ignição automatica
+    name: 🚀 Ignição automatica
     runs-on: ubuntu-latest
     needs: codeql-analysis
 
