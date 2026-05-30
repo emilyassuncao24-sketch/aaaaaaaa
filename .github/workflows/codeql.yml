@@ -16,7 +16,7 @@ jobs:
   # =========================================
   codeql-analysis:
     name:👣 Porta de acesso
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
     permissions:
       actions: read
