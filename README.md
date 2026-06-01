@@ -5,18 +5,18 @@ Foi implementada uma pipeline CI/CD completa usando GitHub Actions e CodeQL para
 🔄 Fluxo da Pipeline
 A pipeline é composta por 3 jobs em sequência, seguindo o modelo da apostila:
 
-🔒 Análise CodeQL
+👣 Porta de Acesso
 
 Executa análise estática de segurança em Python
 Usa .github/codeql-config.yml com consultas de segurança estendida e segurança + qualidade
 Publica alertas em Security → Code scanning alerts
 Se falhar, interrompe toda a pipeline
-🧪 Testes Automatizados
+🚀 Ignição Automatica
 
 Executa testes com pytest e verificação de estilo com flake8
 Garante que o código funciona corretamente e segue boas práticas
 Só roda se a análise CodeQL for bem-sucedida
-🚀 Deploy para Stage (simulado)
+😹 Deploy Grit Roube  (simulado)
 
 Simula o deploy para o ambiente stage configurado no repositório
 Mostra a versão (SHA do commit) e a branch publicada
